@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login {
+  margin-top: 100px;
+  background: #0055b914;
+  border-radius: 10px;
+  box-shadow: 6px 6px 20px 0px #d4d4d4;
+}
+
+.logo {
+  margin-top: 100px;
+}
+
+.register {
+  border-radius: 10px;
+}
+
+.modal-content {
+  background: #003e85;
+}
+
+.side-menu {
+  background: rgb(177 236 252);
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  box-shadow: 2px 0px 20px 0px #d7d7d7;
+  overflow: auto;
+}
+
+.menu {
+  margin-top: 100px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 10px 15px;
+}
+
+.menu ul li a {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+}
+
+.menu ul li:hover {
+  background: rgb(167, 167, 167);
+
+}
+
+.menu ul li:hover a {
+  color: #fff;
+}
+
+.user select {
+  border: none;
+}
+
+.user select:focus-visible {
+  border: none;
+}
+
+.main {
+  padding: 50px 0px;
+}
+
+.box {
+  padding: 20px;
+  background: #e4e4e4;
+  box-shadow: 2px 2px 20px 0px #d9d9d9;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.box i {
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.box p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  background: #8d8d8d85;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.std-box {
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px #d6d6d6;
+  border-radius: 10px;
+  background: #ebebeb;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search .search-container button:hover {
+  background: #ccc;
+}
+
+.std-info h5 {
+
+  font-size: 17px;
 }
